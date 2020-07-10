@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
       copyToClipboardBtn.setAttribute('disabled', true);
       return;
     }
+    gtag('event', 'click_generate_branch_name_btn');
     const taskTitleOutputValue = taskTitleInputValue
       .split(' ')
       .map((x) => x.toLowerCase())
