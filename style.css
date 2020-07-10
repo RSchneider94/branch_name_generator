@@ -1,0 +1,32 @@
+/* General */
+
+* {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #576675;
+}
+
+/* Resets */
+
+.blockquote-footer {
+  color: rgb(230, 228, 228);
+}
+
+.input-group > .custom-select:not(:last-child),
+.input-group > .form-control:not(:last-child) {
+  border-radius: 0;
+}
+
+.form-control:focus {
+  border-color: rgba(115, 155, 194, 0.616);
+  box-shadow: 0 0 0 0.1rem rgba(230, 228, 228, 0.2);
+}
+
+/* Project */
+
+#main-wrapper {
+  height: 240px;
+}
